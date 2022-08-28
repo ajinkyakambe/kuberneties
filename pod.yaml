@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ajinkyagame
+  labels:
+    mylabelname: ajinkyagame
+spec:
+  containers:
+  - name: ajinkyagame
+    image: ajinkyakambe/testgamerepo:v0
